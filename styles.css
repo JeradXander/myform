@@ -1,14 +1,15 @@
-body {
-    color: #ffffff;               /* Dark gray */
-    background-color: #058686;    /* Light gray */
-    font-size: 18px;
-  }
-  
-  h1 {
-    font-size: 2em;
-  }
-  
-  h2 {
-    font-size: 1.6em;
-  }
-  
+
+    h2{
+        color: red ;
+       
+    }
+    img{
+        width:300px
+    }
+    .unordered ul{
+        background-color: aqua;
+    }
+
+    p,ul,ol,h2{
+        text-align: center;
+    }
