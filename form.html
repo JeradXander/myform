@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<style>
+    .button2 {
+        background-color: #005572;
+        color: white;
+        padding: 5px 42px;
+        margin-top: 5px;
+    }.button3 {
+        background-color: #012b17;
+        color: white;
+        padding: 5px 42px;
+        margin-top: 5px;
+    }
+</style>
+
+<body>
+    <form>
+
+        <div>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" size="50px" placeholder= "First Name"required><br>
+
+        </div>
+
+
+        <div>
+            <label for="Lname">Last Name:</label><br>
+            <input type="text" id="Lname" name="Lname" size="50px"  placeholder= "Last Name"required><br>
+        </div>
+        <div>
+            <label for="ename">Email:</label><br>
+            <input type="email" id="ename" name="ename" size="50px" placeholder= "Email" required><br>
+        </div>
+        <div>
+            <label for="pname" required>Password:</label><br>
+            <input type="password" id="pname" name="pname" size="50px"  placeholder= "Password" minlength="8"><br>
+        </div>
+        <div>
+            <label for="pname" required><strong>Date</strong></label><br>
+            <input type="date" id="pname" name="pname" size="50px" placeholder= "01/01/1990"><br>
+        </div>
+
+        <div>
+            <button class="button button3">Clear info</button>
+            <button class="button button2">Add to List</button>
+        </div>
+    </form>
+</body>
+
+</html>
